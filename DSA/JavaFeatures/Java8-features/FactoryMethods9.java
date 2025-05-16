@@ -10,7 +10,7 @@ public class FactoryMethods9{
         System.out.println(Stream.of(1, 2, 3, 4, 5)
                         .reduce(0, (x, y) -> x + y));
         // String name = STR."""Lakshman"""; // java21
-        // String formattedName = STR."Hello, \{name} !";//java21
-        System.out.println(formattedName);
+      //   String formattedName = STR."Hello, \{name} !";//java21
+        System.out.println("formattedName");
        }
     }

@@ -1,0 +1,182 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PrintSubSequences",
+            "request": "launch",
+            "mainClass": "Medium.PrintSubSequences",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "FindOccurence",
+            "request": "launch",
+            "mainClass": "Basics.FindOccurence",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "FindIndexOfElement",
+            "request": "launch",
+            "mainClass": "Basics.FindIndexOfElement",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "FindMaxInArray",
+            "request": "launch",
+            "mainClass": "Basics.FindMaxInArray",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "IsPalindrom",
+            "request": "launch",
+            "mainClass": "Basics.IsPalindrom",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "IsArraySorted",
+            "request": "launch",
+            "mainClass": "Basics.IsArraySorted",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "PrintEleEndToStart",
+            "request": "launch",
+            "mainClass": "Basics.PrintEleEndToStart",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "PrinteEleStartToEnd",
+            "request": "launch",
+            "mainClass": "Basics.PrinteEleStartToEnd",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "Basics.ReverseString",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "BasicsPrinting",
+            "request": "launch",
+            "mainClass": "Basics.BasicsPrinting",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "PrintCharsOfString",
+            "request": "launch",
+            "mainClass": "Basics.PrintCharsOfString",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNumber",
+            "request": "launch",
+            "mainClass": "Basics.ReverseNumber",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "PrintDigitsOfANumber",
+            "request": "launch",
+            "mainClass": "Basics.PrintDigitsOfANumber",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "PrintFactOfN",
+            "request": "launch",
+            "mainClass": "Basics.PrintFactOfN",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "PrintSumofFirstN",
+            "request": "launch",
+            "mainClass": "Basics.PrintSumofFirstN",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "PrintOddNToOne",
+            "request": "launch",
+            "mainClass": "Basics.PrintOddNToOne",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "PrintEvenOneToN",
+            "request": "launch",
+            "mainClass": "Basics.PrintEvenOneToN",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "PrintNtoOne",
+            "request": "launch",
+            "mainClass": "Basics.PrintNtoOne",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "OneToNPrinting",
+            "request": "launch",
+            "mainClass": "Basics.OneToNPrinting",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "PrintSubSequenceOfTarget",
+            "request": "launch",
+            "mainClass": "PrintSubSequenceOfTarget",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BasicsPrinting",
+            "request": "launch",
+            "mainClass": "BasicsPrinting",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "FabonacciSeries",
+            "request": "launch",
+            "mainClass": "FabonacciSeries",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "MoveZerosToEnd",
+            "request": "launch",
+            "mainClass": "MoveZerosToEnd",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "PrintSubSequences",
+            "request": "launch",
+            "mainClass": "PrintSubSequences",
+            "projectName": "MAANG_c2c38f92"
+        }
+    ]
+}

@@ -13,13 +13,5 @@ public class BinarySearch {
 
     private static int binarySearchHelper(int[] nums, int target, int start, int end) {
         if (start > end || start < 0 || end >= nums.length) return -1;
-        int mid = start + ((end - start) / 2);
-        if (nums[mid] > target) {
-            return binarySearchHelper(nums, target, start, mid - 1);
-        } else if (nums[mid] < target) {
-            return binarySearchHelper(nums, target, mid + 1, end);
-        } else {
-            return mid;
-        }
     }
 }

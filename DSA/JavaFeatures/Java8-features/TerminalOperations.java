@@ -5,12 +5,10 @@
 // Conversion	toArray()
 // Short-Circuiting	findFirst(), findAny()
 
-import java.util.*;
-
 public class TerminalOperations{
 
 public static void main(String[]a)
    {
-     System.out.println()
+     System.out.println();
    }
 }

@@ -48,7 +48,7 @@
 |2    |Primitive Calculator    |`UnSolved`
 |3    |Edit Distance    |`Solved`
 |4    |Longest Common Subsequence of Two Sequences    |`Solved`
-|5    | Longest Common Subsequence of Three Sequences    |`Solved`
+|5    |Longest Common Subsequence of Three Sequences    |`Solved`
 
 #### Sources
 

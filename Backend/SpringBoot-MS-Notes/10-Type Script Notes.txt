@@ -657,7 +657,7 @@ Class definition contains following things
 
 Syntax to declare class In TypeScript
 ----------------------------------------------------
-class <class-name> }
+class <class-name> {
 
      // fields
 

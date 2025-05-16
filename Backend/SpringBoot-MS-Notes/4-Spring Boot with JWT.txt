@@ -228,7 +228,7 @@ public class AuthenticationResource {
 }
 
 ======================================================
-11) Create Request Filter to intercept each request 
+11) Create Request Filter to intercept each request
 ======================================================
 
 package in.ashokit.security;

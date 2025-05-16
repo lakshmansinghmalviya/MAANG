@@ -1,0 +1,160 @@
+Practices
+🔁 Universal/Base Components
+BaseEntity for common audit fields (id, timestamps)
+
+BaseRepository<T, ID>
+
+BaseService<T, ID> and BaseServiceImpl
+
+BaseController<T, ID>
+
+ApiResponse<T> for consistent API responses
+
+🧩 Common Modules (Shared Library)
+Extract shared logic into a separate Maven/Gradle module:
+
+DTOs
+
+Exception handling
+
+Security (JWT filters, password encoders)
+
+Swagger, CORS, Logging config
+
+Utilities (DateUtil, FileUtil, EnumUtils)
+
+Standard Response/Error structure
+
+🧰 Utility and Helper Classes
+StringUtil, DateTimeUtil, ValidationUtil
+
+Common BeanMapper using ModelMapper or MapStruct
+
+🪄 Custom Annotations
+@BaseCrudController – auto-registers CRUD endpoints
+
+@LogExecutionTime – for performance logging
+
+@Secured – role-based access control shortcut
+
+🚀 2. Performance Optimizations
+🧠 Database Optimizations
+Index critical fields (foreign keys, frequently searched columns)
+
+Use pagination (Pageable) for large lists
+
+Avoid N+1 problem (use @EntityGraph or JOIN FETCH)
+
+Optimize queries using projections (interfaces)
+
+Use native queries or Spring Data specs when needed
+
+⚙️ Code Optimizations
+Minimize object creation in loops
+
+Reuse service layers; avoid redundant DB calls
+
+Use Java Streams and caching wisely
+
+Async processing using @Async or Spring Events
+
+🧠 Spring Context Optimization
+Use @Lazy where appropriate
+
+Component scan restrictions (avoid scanning whole project)
+
+Profile-based configs using @Profile("dev"), etc.
+
+🧩 3. Architectural Patterns
+📐 Layered Architecture
+Controller → Service → Repository
+
+DTO → Entity mappers
+
+🔌 Microservice Decomposition
+Follow Domain-Driven Design (DDD)
+
+Define bounded contexts: User, Auth, Payroll, etc.
+
+Use API Gateways and service registry (like Eureka)
+
+🧱 Use Design Patterns
+Singleton (for shared beans)
+
+Factory (for object creation)
+
+Strategy (for dynamic behavior)
+
+Builder (for complex objects)
+
+Template (for reusable methods like BaseService)
+
+🛡️ 4. Security & Exception Handling
+🔐 Security Best Practices
+Use JWT/OAuth2
+
+Secure endpoints via @PreAuthorize or @Secured
+
+Avoid exposing stack traces
+
+⚠️ Centralized Exception Handling
+Use @ControllerAdvice and @ExceptionHandler
+
+Define custom exceptions (ResourceNotFound, BusinessException)
+
+Create a global error response format
+
+🧪 5. Testing & Validation
+✅ Validation
+Use @Valid, @NotNull, @Email, etc. in DTOs
+
+Global MethodArgumentNotValidException handler
+
+🧪 Reusable Test Setup
+Base test config class for common mocks
+
+Use test containers or H2 for integration testing
+
+📦 6. Configuration Optimization
+📁 Externalized Configuration
+Use application-{env}.yml
+
+Store secrets in Vault or AWS Parameter Store
+
+Profile-specific configs (dev, prod)
+
+🔄 Environment Switching
+Use @Profile, @ConditionalOnProperty for env-based beans
+
+♻️ 7. DevOps & Deployment Reusability
+🐳 Dockerization
+Reuse Dockerfile templates
+
+Central docker-compose.yml for local microservice orchestration
+
+⚙️ CI/CD
+Share GitHub Actions or Jenkins pipelines
+
+Build reusable scripts for testing, linting, deployment
+
+📁 8. Project Structuring Tips
+css
+Copy
+Edit
+common/
+  └── base/
+  └── dto/
+  └── exceptions/
+  └── utils/
+  └── config/
+service-a/
+service-b/
+📚 Bonus: Developer Experience
+Use Swagger UI/OpenAPI for docs
+
+Add README templates
+
+Add Postman collections
+
+Linting, formatter (e.g., Spotless)
+

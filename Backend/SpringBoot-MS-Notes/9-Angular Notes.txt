@@ -593,7 +593,7 @@ JavaScript can add/change/remove HTML events
 
 --------------------------
 Built-In Directives
-----------------------------
+--------------------------
 
 style
 --------

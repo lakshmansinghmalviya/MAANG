@@ -1,0 +1,23 @@
+In Eclipse or STS
+===================
+
+1. Ctrl + Shift + R : To find all resource files, including the config XML files from the workspace
+2. Ctrl + Shift + T : To find class in an application or from inside a jar
+3. Ctrl + W : To close the current file
+4. Ctrl + Shirt + W : To close all the open files
+5. Ctrl + Shift + O : To organise the missing imports
+6. Ctrl + Shift + F : For auto-formatting
+7. Ctrl + / : To add/remove single line comment for selected line
+8. Ctrl + Shift + Enter : To add blank line before the current line
+9. Alt + Shift + S, R : To generate Setters & Getters
+10. Alt + Shift + S, S : To generate toString() method 
+11. Alt + Shift + S, o : To add constructor with fields
+12. Ctrl + 1 + Enter : To store method return value to variable 
+13. Ctrl + D : To delete current line 
+14. Ctrl + O : Display all methods of current classs, Pressing Ctrl + O again will display all the inherited methods
+15. Ctrl + Shift + P : Go to matching bracket
+16. Alt + Shift + R : To rename
+17. Alt + Shift + T : To open the context-sensitive refactoring menu
+18. Alt + Shift + Z : To surround a block with try and catch
+19. Ctrl + Shift + / : To comment and uncomment lines with a block comment
+20. Ctrl + Q : To go to the last edited position

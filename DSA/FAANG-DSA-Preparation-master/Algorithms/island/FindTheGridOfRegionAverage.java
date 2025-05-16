@@ -22,7 +22,7 @@ public class FindTheGridOfRegionAverage {
         int[][] counts = new int[rows][cols];
         for (int row = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++) {
-//                Check if Region is valid or not.
+//              Check if Region is valid or not.
                 int xMax = Math.min(rows, row + 3), yMax = Math.min(col + 3, cols);
                 int count = 0;
                 int sum = 0;

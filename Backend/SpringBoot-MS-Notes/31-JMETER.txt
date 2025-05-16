@@ -61,7 +61,7 @@ Creating Test Plan
 
 3) Right Click on Thread Group (For Listerns)
 
-			- Add Listener
+			    - Add Listener
 				- Add View Results Tree
 				- Add Summary Report
 			
@@ -78,7 +78,6 @@ JMETER Best Practise
 ==================
 
 -> Create the TEST in GUI mode and run the test in CLI mode
-
 
     Cmd to execute the test ::::   jmeter -n -t test-plan.jmx -l test-results.jtl
 

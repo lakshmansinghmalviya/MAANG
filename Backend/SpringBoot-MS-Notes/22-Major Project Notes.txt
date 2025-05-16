@@ -53,7 +53,7 @@ The main aim of this project is to provide fully integrated health and insurance
 
 Note: Internet project means everybody can access, Intranet means it is accessible by specific people in specific locations.
 
-					AADHAR  -----> Intranet application   
+					AADHAR -----> Intranet application   
 
 					Gmail ------> Internet application
 
@@ -97,7 +97,7 @@ HIS Project Modules
 -> Admin module contains below functionalities
 
 				a) Plans Management (Create & Update Plans)
-				b) Case Worker Accounts Management ( Activate & De-Activate accounts)
+				b) Case Worker Accounts Management ( Activate & De-Activate accounts )
 
 -> User Management module conaints below functionalities
 

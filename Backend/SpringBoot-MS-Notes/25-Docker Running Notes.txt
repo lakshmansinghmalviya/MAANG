@@ -201,8 +201,6 @@ CMD
 -> Technically we can write multiple CMD instructions in dockerfile but Docker will process only last CMD instruction
   (There is no use of writing multiple CMD instructions in Dockerfile)
 
-
-
 FROM
 MAINTAINER
 COPY

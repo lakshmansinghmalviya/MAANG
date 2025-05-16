@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -23,6 +24,7 @@ Note:
 1 <= k <= len(nums) * (len(nums) - 1) / 2.
  */
 public class FindKthSmallestPairDistance {
+
     public static void main(String[] args) {
         System.out.println("Answer is: " + smallestDistancePair(new int[]{1, 3, 1}, 1) + " should be [0].");
         System.out.println("Answer is: " + smallestDistancePair(new int[]{62, 100, 4}, 2) + " should be [58].");
@@ -37,12 +39,17 @@ public class FindKthSmallestPairDistance {
             int mi = (lo + hi) / 2;
             int count = 0, left = 0;
             for (int right = 0; right < nums.length; ++right) {
-                while (nums[right] - nums[left] > mi) left++;
+                while (nums[right] - nums[left] > mi) {
+                    left++;
+                }
                 count += right - left;
             }
             //count = number of pairs with distance <= mi
-            if (count >= k) hi = mi;
-            else lo = mi + 1;
+            if (count >= k) {
+                hi = mi; 
+            }else {
+                lo = mi + 1;
+            }
         }
         return lo;
     }
