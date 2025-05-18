@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubSequencesSum",
+            "request": "launch",
+            "mainClass": "Medium.SubSequencesSum",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "CombinationSum",
+            "request": "launch",
+            "mainClass": "Medium.CombinationSum",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
+            "name": "MinCoins",
+            "request": "launch",
+            "mainClass": "Medium.MinCoins",
+            "projectName": "MAANG_c2c38f92"
+        },
+        {
+            "type": "java",
             "name": "PrintSubSequences",
             "request": "launch",
             "mainClass": "Medium.PrintSubSequences",

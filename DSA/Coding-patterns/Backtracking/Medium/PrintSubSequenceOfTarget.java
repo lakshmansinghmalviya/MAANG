@@ -20,6 +20,6 @@ public class PrintSubSequenceOfTarget {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 3 };
         int t = 4;
-        System.out.println(findTargetSequence(arr, t, 0, 0, new ArrayList<>()));
+        System.out.println(findTargetSequence(arr, t, 0, new ArrayList<>()));
     }
 }
