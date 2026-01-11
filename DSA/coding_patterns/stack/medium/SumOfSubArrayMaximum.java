@@ -58,4 +58,6 @@ public class SumOfSubArrayMaximum {
         SumOfSubArrayMaximum subArrayMaximum = new SumOfSubArrayMaximum();
         System.out.println(subArrayMaximum.sumSubarrayMaximum(arr));
     }
+
+    // think can we use largest traingle in a histogram optimized solutino here ?
 }
