@@ -23,9 +23,11 @@ class StockSpanner {
     }
 
     public int next(int price) {
+
         while (!stack.isEmpty() && stack.peek().value <= price) {
             stack.pop();
         }
+
         int previousIndex = stack.isEmpty() ? -1 : stack.peek().index;
         stack.push(new Pair(price, index));
         int result = index - previousIndex;

@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "CelebrityProblem",
+        "request": "launch",
+        "mainClass": "coding_patterns.stack.hard.CelebrityProblem",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "SlidingWindowMaximum",
         "request": "launch",
         "mainClass": "coding_patterns.stack.hard.SlidingWindowMaximum",
