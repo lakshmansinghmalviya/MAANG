@@ -12,14 +12,48 @@ public class MaxconsicutiveOnesIII {
 
             if (nums[r] == 0)
                 zero++;
-
+            // this can be removed think like if the zeros are > k dont update once left
+            // make it k<= then we can updat max
             while (zero > k) {
                 if (nums[l] == 0)
                     zero--;
                 l++;
             }
+            if (nums[l] == 0) {
+                zero--;
+            }
 
-            max = Math.max(max, r - l + 1);
+            if (zero <= k)
+                max = Math.max(max, r - l + 1);
+
+            r++;
+        }
+        return max;
+    }
+
+    // most opt
+    public static int longestOnesOpt(int[] nums, int k) {
+        int l = 0, r = 0;
+        int max = 0;
+        int zero = 0;
+
+        while (r < nums.length) {
+
+            if (nums[r] == 0)
+                zero++;
+            // this can be removed think like if the zeros are > k dont update once left
+            // make it k<= then we can updat max
+
+            if (zero > k) {
+                if (nums[l] == 0) {
+                    zero--;
+                }
+                l++;
+            }
+
+            if (zero <= k)
+                max = Math.max(max, r - l + 1);
+
             r++;
         }
         return max;
