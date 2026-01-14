@@ -6,11 +6,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LongestNonRepeatingCharString {
-    
+
     public static int lengthOfLongestSubstring(String s) {
         int max = 0;
         int l = 0, r = 0;
         Map<Character, Integer> map = new HashMap<>();
+
         while (r < s.length()) {
             char c = s.charAt(r);
             if (map.containsKey(c) && map.get(c) >= l) {
