@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "BinarySubArrayWithSumK",
+        "request": "launch",
+        "mainClass": "coding_patterns.sliding_window_2_pointer.BinarySubArrayWithSumK",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "CelebrityProblem",
         "request": "launch",
         "mainClass": "coding_patterns.stack.hard.CelebrityProblem",
