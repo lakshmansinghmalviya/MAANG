@@ -39,6 +39,8 @@ public class NumberOfNiceArrays {
             else
                 nums[i] = 1;
         }
+        // or while running in the loop while counting you can do the modulo
+
         return numSubarraysWithSum(nums, k);
     }
 
