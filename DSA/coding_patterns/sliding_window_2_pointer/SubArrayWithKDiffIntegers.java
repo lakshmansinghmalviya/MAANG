@@ -7,8 +7,7 @@ import java.util.HashMap;
 public class SubArrayWithKDiffIntegers {
         int findBinarySubArrayWithSumKOrLesser(int arr[], int k) {
         int cnt = 0;
-        int l = 0, r = 0;
-        int sum = 0;
+        int l = 0, r = 0; 
 
         HashMap<Integer, Integer> map = new HashMap<>();
 
