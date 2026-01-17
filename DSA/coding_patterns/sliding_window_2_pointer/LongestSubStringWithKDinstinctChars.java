@@ -12,6 +12,7 @@ public class LongestSubStringWithKDinstinctChars {
         Map<Character, Integer> map = new HashMap<>();
         int l = 0, r = 0;
         int max = 0;
+
         while (r < s.length()) {
             map.put(s.charAt(r), map.getOrDefault(s.charAt(r), 0) + 1);
 
@@ -25,7 +26,7 @@ public class LongestSubStringWithKDinstinctChars {
             max = Math.max(max, r - l + 1);
             r++;
         }
-        return  max;
+        return max;
     }
 
     public static void main(String[] args) {
