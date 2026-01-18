@@ -117,9 +117,11 @@ class Heap {
         // means 1- n/2+1 these are internal nodes
         int n = arr.length;
         System.out.println(Arrays.toString(arr));
+
         for (int i = (n / 2); i >= tillIndex; i--) {
             heapify(arr, n, i);
         }
+
         System.out.println(Arrays.toString(arr));
     }
 }

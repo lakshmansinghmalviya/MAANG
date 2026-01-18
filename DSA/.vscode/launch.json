@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "CheckMinHeapOrNot",
+        "request": "launch",
+        "mainClass": "coding_patterns.heap.CheckMinHeapOrNot",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "HeapImplementation",
         "request": "launch",
         "mainClass": "coding_patterns.heap.HeapImplementation",
