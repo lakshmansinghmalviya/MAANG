@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "MinimumWindowSubSequence",
+        "request": "launch",
+        "mainClass": "coding_patterns.sliding_window_2_pointer.MinimumWindowSubSequence",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "BinarySubArrayWithSumK",
         "request": "launch",
         "mainClass": "coding_patterns.sliding_window_2_pointer.BinarySubArrayWithSumK",
