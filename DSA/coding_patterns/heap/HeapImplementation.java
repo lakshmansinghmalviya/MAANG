@@ -111,11 +111,11 @@ class Heap {
         }
     }
 
-    void makeArrayHeapify(int arr[], int tillIndex) {
+    void makeArrayHeapify(int arr[], int tillIndex, int size) {
         // calculate internal nodes
         // (n/2+1)->n; leaf node node
         // means 1- n/2+1 these are internal nodes
-        int n = arr.length;
+        int n = size;
         System.out.println(Arrays.toString(arr));
 
         for (int i = (n / 2); i >= tillIndex; i--) {
@@ -123,6 +123,16 @@ class Heap {
         }
 
         System.out.println(Arrays.toString(arr));
+    }
+
+    void heapSort(int arr[], int n) {
+        int size = n;
+
+        while (size > 1) {
+            swap(arr, 1, size);
+            size--;
+            heapify(arr, 1, size);
+        }
     }
 }
 
@@ -144,13 +154,19 @@ public class HeapImplementation {
         heap.offer(30);
         heap.offer(50);
         heap.print();
-        heap.pollMaxHeap();
-        heap.pollMaxHeap();
-        heap.pollMaxHeap();
-        heap.print();
+        // heap.pollMaxHeap();
+        // heap.pollMaxHeap();
+        // heap.pollMaxHeap();
+        // heap.print();
 
-        System.out.println("Heapify algo ");
+        // System.out.println("Heapify algo ");
+        // int arr[] = { -1, 54, 53, 55, 20, 30, 70, 80 };
+        // heap.makeArrayHeapify(arr, 1);
+
+        // heap sort
         int arr[] = { -1, 54, 53, 55, 20, 30, 70, 80 };
-        heap.makeArrayHeapify(arr, 1);
+        // first pass array and build heap then pass this array
+        heap.heapSort(arr, 7);
+        System.out.println(Arrays.toString(arr));
     }
 }
