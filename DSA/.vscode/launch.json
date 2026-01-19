@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "KthLargestElementInArray",
+        "request": "launch",
+        "mainClass": "coding_patterns.heap.medium.KthLargestElementInArray",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "CheckMinHeapOrNot",
         "request": "launch",
         "mainClass": "coding_patterns.heap.CheckMinHeapOrNot",
