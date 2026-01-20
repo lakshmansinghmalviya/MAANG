@@ -2,6 +2,11 @@
 
 package coding_patterns.heap.medium;
 
+class TreeNode {
+    TreeNode left;
+    TreeNode right;
+}
+
 public class CheckIsTreeCBT {
     int totalNode(TreeNode root) {
         if (root == null)
@@ -30,4 +35,6 @@ public class CheckIsTreeCBT {
     public static void main(String[] args) {
 
     }
+    // Another problem can be solved using this that is is binary tree Heap 
+    //  check  if CBT && maxOrderHeap (node's child value should have lesser)
 }
