@@ -5,6 +5,9 @@ package coding_patterns.heap.medium;
 import java.util.PriorityQueue;
 
 public class ConnectNRopes {
+
+    // S-o(n)
+    //T- n log n
     public static int minCost(int[] arr) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 

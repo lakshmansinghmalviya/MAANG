@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "KthLargestSubArraySum",
+        "request": "launch",
+        "mainClass": "coding_patterns.heap.medium.KthLargestSubArraySum",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "MergeTwoBinaryMaxHeap",
         "request": "launch",
         "mainClass": "coding_patterns.heap.medium.MergeTwoBinaryMaxHeap",
