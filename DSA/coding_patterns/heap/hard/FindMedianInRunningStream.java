@@ -6,7 +6,6 @@ public class FindMedianInRunningStream {
 
     // use min and max heap  logic here 
     public static void main(String[] args) {
-
+     
     }
-
 }
