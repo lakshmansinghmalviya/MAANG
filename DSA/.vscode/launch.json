@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "KthLargestInARunningStream",
+        "request": "launch",
+        "mainClass": "coding_patterns.heap.hard.KthLargestInARunningStream",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "KthLargestSubArraySum",
         "request": "launch",
         "mainClass": "coding_patterns.heap.medium.KthLargestSubArraySum",
