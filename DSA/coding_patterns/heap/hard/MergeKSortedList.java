@@ -4,6 +4,15 @@ package coding_patterns.heap.hard;
 
 import java.util.PriorityQueue;
 
+class ListNode {
+    ListNode next;
+    int val;
+
+    ListNode(int v) {
+        val = v;
+    }
+}
+
 class Pair {
     int value;
     ListNode node;
