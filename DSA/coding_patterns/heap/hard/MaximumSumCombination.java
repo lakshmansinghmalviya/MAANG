@@ -57,7 +57,7 @@ public class MaximumSumCombination {
     // optimal approach
     public ArrayList<Integer> topKSumPairsOptimal(int[] a, int[] b, int k) {
 
-        PriorityQueue<int[]> pq = new PriorityQueue<>((x,y)->y[0]-x[0]);
+        PriorityQueue<int[]> pq = new PriorityQueue<>((x, y) -> y[0] - x[0]);
         HashSet<String> vis = new HashSet<>();
         sort(a);
         sort(b);
