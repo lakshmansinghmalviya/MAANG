@@ -28,6 +28,8 @@ class Pair {
 }
 
 public class MergeKSortedList {
+
+    
     // optimal approach to use min heap
     // Time: O(N log K)
     // Space: O(K)

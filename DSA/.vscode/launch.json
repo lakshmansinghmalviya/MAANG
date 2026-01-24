@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "MaximumSumCombination",
+        "request": "launch",
+        "mainClass": "coding_patterns.heap.hard.MaximumSumCombination",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "KthLargestInARunningStream",
         "request": "launch",
         "mainClass": "coding_patterns.heap.hard.KthLargestInARunningStream",

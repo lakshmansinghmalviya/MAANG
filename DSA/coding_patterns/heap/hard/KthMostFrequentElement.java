@@ -30,4 +30,8 @@ public class KthMostFrequentElement {
 
         return list.stream().mapToInt(i -> i).toArray();
     }
+
+    public static void main(String[] args) {
+
+    }
 }
