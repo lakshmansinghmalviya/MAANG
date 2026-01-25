@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "MinimumCoinsGreedy",
+        "request": "launch",
+        "mainClass": "medium.MinimumCoinsGreedy",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "MaximumSumCombination",
         "request": "launch",
         "mainClass": "coding_patterns.heap.hard.MaximumSumCombination",

@@ -19,6 +19,18 @@ public class AssignCookies {
                 }
             }
         }
+
+        // Arrays may not be sorted so this wont work
+        // for (int i = g.length-1; i >=0; i--) {
+        // for (int k = j; k >=0; k--) {
+        // if (s[k] >= g[i]) {
+        // j = k-1;
+        // cnt++;
+        // break;
+        // }
+        // }
+        // }
+
         return cnt;
     }
 
