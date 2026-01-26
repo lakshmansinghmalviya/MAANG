@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "NMeetingInARoom",
+        "request": "launch",
+        "mainClass": "medium.NMeetingInARoom",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "StringFeatures",
         "request": "launch",
         "mainClass": "StringFeatures",
