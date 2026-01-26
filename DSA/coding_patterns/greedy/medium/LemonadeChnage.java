@@ -3,14 +3,16 @@
 package medium;
 
 public class LemonadeChnage {
-    public boolean lemonadeChange(int[] bills) {
 
+    public boolean lemonadeChange(int[] bills) {
         int five = 0, ten = 0;
 
         for (int i = 0; i < bills.length; i++) {
 
             int target = bills[i] - 5;
 
+            // We can remove this loop why ? because we have max 20 only so we can decrease
+            // 10 + 5 if its twenty
             while (target > 0) {
                 if (target >= 10 && ten >= 1) {
                     target = target - 10;

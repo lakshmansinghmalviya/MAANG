@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "StringFeatures",
+        "request": "launch",
+        "mainClass": "StringFeatures",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "MinimumCoinsGreedy",
         "request": "launch",
         "mainClass": "medium.MinimumCoinsGreedy",
