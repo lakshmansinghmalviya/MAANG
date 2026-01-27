@@ -10,7 +10,7 @@ public class JumpI {
     public boolean canJump(int[] nums) {
 
         // int i = 0;
-
+        // undertood the question wrong because we could move to 1-N where n is the arr[i]
         // while (i != nums.length - 1 && i < nums.length) {
         // i = i + nums[i];
         // if (i < nums.length && nums[i] == 0 && i != nums.length - 1)
