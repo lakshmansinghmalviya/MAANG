@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class FractionalKnapsack {
 
     public static double fractionalKnapsack(int[] val, int[] wt, long cap) {
-
         double arr[][] = new double[val.length][3];
 
         for (int i = 0; i < val.length; i++) {

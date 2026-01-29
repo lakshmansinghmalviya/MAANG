@@ -24,6 +24,7 @@ public class InsertIntervals {
 
         int min = newInterval[0];
         int max = newInterval[1];
+        // we can remove these variable and use the newInterval itself
 
         while (i < n && max >= intervals[i][0]) {
             min = Math.min(intervals[i][0], min);
