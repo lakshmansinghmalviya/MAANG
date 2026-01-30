@@ -12,14 +12,14 @@ class RotateArray {
         }
     }
 
-     void rotate(int[] nums, int k) {
+    void rotate(int[] nums, int k) {
         k = k % nums.length;
         int n = nums.length - 1;
         reverse(nums, nums.length - k, n);
         System.out.println(Arrays.toString(nums));
         reverse(nums, 0, n);
         reverse(nums, k, n);
-    }        
+    }
 }
 
 // k=3
