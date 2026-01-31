@@ -4,8 +4,9 @@ public class CandyDistribution {
 
     // using the slove visualization
     // see the up and down and dry run the difference finding
+    // optimal
 
-    public int candy(int[] ratings) {
+    public int candyOptimal(int[] ratings) {
 
         // get the left and right max of the both and sum that we will get the min cost
         // to distribute

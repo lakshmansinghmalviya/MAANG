@@ -3,6 +3,27 @@
   "configurations": [
     {
         "type": "java",
+        "name": "JobSequencingProblem",
+        "request": "launch",
+        "mainClass": "algo.JobSequencingProblem",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "StringFeatures",
+        "request": "launch",
+        "mainClass": "JavaFeatures.Java21_features.StringFeatures",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "Test",
+        "request": "launch",
+        "mainClass": "JavaFeatures.Java21_features.Test",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "SortestJobFirst",
         "request": "launch",
         "mainClass": "algo.SortestJobFirst",
