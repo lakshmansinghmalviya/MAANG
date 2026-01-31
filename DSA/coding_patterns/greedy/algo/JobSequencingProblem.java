@@ -32,6 +32,7 @@ public class JobSequencingProblem {
         for (int i = 0; i < arr.length; i++) {
             int curProfit = arr[i].profit;
 
+            // can reduce/remove a graph concept
             for (int j = arr[i].deadline; j > 0; j--) {
                 if (jobCompleted[j] == -1) {
                     profit += curProfit;

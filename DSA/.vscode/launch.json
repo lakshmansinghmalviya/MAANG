@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "JavaVirtualThread",
+        "request": "launch",
+        "mainClass": "JavaFeatures.Java21_features.JavaVirtualThread",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "JobSequencingProblem",
         "request": "launch",
         "mainClass": "algo.JobSequencingProblem",
