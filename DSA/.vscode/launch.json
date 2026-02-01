@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "MinimumNumberOfPlatformsRequired",
+        "request": "launch",
+        "mainClass": "algo.MinimumNumberOfPlatformsRequired",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "JavaVirtualThread",
         "request": "launch",
         "mainClass": "JavaFeatures.Java21_features.JavaVirtualThread",

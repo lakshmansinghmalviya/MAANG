@@ -13,7 +13,7 @@ public class JumpII {
 
         if (index >= arr.length - 1)
             return jump;
-
+ 
         int mini = Integer.MAX_VALUE;
         for (int i = 1; i <= arr[index]; i++) {
             mini = Math.min(mini, jumpHelper(arr, index + i, jump + 1));
