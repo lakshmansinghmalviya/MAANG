@@ -16,7 +16,7 @@ public class InOrderTraversal {
     }
 
     // Using recursive solution
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversalStack(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
         while (true) {

@@ -10,7 +10,7 @@ public class PreOrderTraversalOrDFS {
 
     // we can solve it using stack also
 
-    public List<Integer> preorderTraversal(TreeNode root) {
+    public List<Integer> preorderTraversalStack(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         if (root == null)
             return list;
