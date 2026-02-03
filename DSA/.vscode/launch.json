@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "PreInPostOrderTraversal",
+        "request": "launch",
+        "mainClass": "coding_patterns.trees.basic.PreInPostOrderTraversal",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "MinimumNumberOfPlatformsRequired",
         "request": "launch",
         "mainClass": "algo.MinimumNumberOfPlatformsRequired",

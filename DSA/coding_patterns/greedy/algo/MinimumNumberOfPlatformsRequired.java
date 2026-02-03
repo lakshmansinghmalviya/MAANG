@@ -11,6 +11,7 @@ public class MinimumNumberOfPlatformsRequired {
         int n = arrive.length;
 
         Arrays.sort(arrive);
+        // Arrays.parallelSort(arrive);  usage dual pivot and always o(NlogN)
         Arrays.sort(depart);
         int i = 0;
         int j = 0;
