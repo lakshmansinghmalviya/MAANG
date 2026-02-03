@@ -17,12 +17,16 @@ class Pair {
 }
 
 public class PreInPostOrderTraversal {
+
+    // T-O(3*N)
+    // S-O(4N) // stack
+
     public List<Integer>[] postorderTraversal(TreeNode root) {
         List<Integer> preOrder = new ArrayList<>();
         List<Integer> inOrder = new ArrayList<>();
         List<Integer> postOrder = new ArrayList<>();
         Stack<Pair> stack = new Stack<>();
-        
+
         if (root == null) {
             return new List[] {};
         }
