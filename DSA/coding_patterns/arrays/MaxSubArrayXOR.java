@@ -3,7 +3,7 @@ import java.util.*;
 public class MaxSubArrayXOR {
    static  int  subArrays(int arr[]) {
         Map<Integer, Integer> map = new HashMap<>();
-        map.put(0, 1);
+         map.put(0, 1);
          int sum = 0;
          int cnt = 0;
         for (int i = 0; i < arr.length; i++) {
