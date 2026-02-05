@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "BestTimeToBuyAndSell",
+        "request": "launch",
+        "mainClass": "interview.cognitree.BestTimeToBuyAndSell",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "MaxSubArrayXOR",
         "request": "launch",
         "mainClass": "MaxSubArrayXOR",
