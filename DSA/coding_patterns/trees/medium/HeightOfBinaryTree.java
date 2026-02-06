@@ -5,6 +5,7 @@ package coding_patterns.trees.medium;
 import coding_patterns.trees.basic.TreeNode;
 
 public class HeightOfBinaryTree {
+    
     public int maxDepth(TreeNode root) {
         if (root == null)
             return 0;
