@@ -1,7 +1,7 @@
 package coding_patterns.trees.basic;
 
 public class TreeNode {
-    int val;
+    public int val;
     public TreeNode left;
     public TreeNode right;
 
