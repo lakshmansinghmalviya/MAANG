@@ -5,6 +5,7 @@ package coding_patterns.trees.medium;
 import coding_patterns.trees.basic.TreeNode;
 
 public class BinaryTreeMaximumSum {
+    
     public int findHeight(TreeNode root, int arr[]) {
         if (root == null) {
             return 0;
@@ -12,12 +13,21 @@ public class BinaryTreeMaximumSum {
 
         int leftSum = findHeight(root.left, arr);
         int rightSum = findHeight(root.right, arr);
+        leftSum = Math.max(leftSum,0); // dont consider the negative left sum and right sum consider the node val if even negative
+        rightSum = Math.max(rightSum,0);
+
+        // System.out.println("LEFT AND RIGHT root.val "+leftSum +"  "+rightSum+" "+root.val);
+        
         arr[0] = Math.max(arr[0], root.val + leftSum + rightSum);
+        
+        // System.out.println("MAX " + arr);
+
         return root.val + Math.max(leftSum, rightSum);
     }
 
     public int maxPathSum(TreeNode root) {
         int arr[] = new int[1];
+        arr[0] = Integer.MIN_VALUE;
         findHeight(root, arr);
         return arr[0];
     }
