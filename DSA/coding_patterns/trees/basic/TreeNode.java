@@ -4,13 +4,18 @@ public class TreeNode {
     public int val;
     public TreeNode left;
     public TreeNode right;
+    public int data;
 
-    TreeNode() {
+    public TreeNode() {
     }
 
-    TreeNode(int val, TreeNode l, TreeNode r) {
+    public TreeNode(int val, TreeNode l, TreeNode r) {
         this.val = val;
         left = l;
         right = r;
+    }
+
+    public TreeNode(int data) {
+        this.data = data;
     }
 }

@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "BoundaryTraversalAntiClokWise",
+        "request": "launch",
+        "mainClass": "coding_patterns.trees.medium.BoundaryTraversalAntiClokWise",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "BestTimeToBuyAndSell",
         "request": "launch",
         "mainClass": "interview.cognitree.BestTimeToBuyAndSell",

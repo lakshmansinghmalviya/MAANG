@@ -10,6 +10,7 @@ import java.util.Queue;
 import coding_patterns.trees.basic.TreeNode;
 
 public class ZigZagInorderTraversal {
+
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> lists = new ArrayList<>();
         if (root == null)
