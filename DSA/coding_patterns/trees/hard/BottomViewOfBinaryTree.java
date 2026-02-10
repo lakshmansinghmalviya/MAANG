@@ -1,4 +1,4 @@
-// https://takeuforward.org/plus/dsa/problems/top-view-of-bt
+// https://www.naukri.com/code360/problems/bottom-view-of-binary-tree_893110
 
 package coding_patterns.trees.hard;
 
@@ -7,10 +7,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.TreeMap;
+
 import coding_patterns.trees.basic.TreeNode;
 
-public class TopViewOfBinaryTree {
-
+public class BottomViewOfBinaryTree {
     public List<Integer> retrieveTopViewOfBinaryTree(TreeNode root) {
 
         TreeMap<Integer, Integer> map = new TreeMap<>();
@@ -23,10 +23,13 @@ public class TopViewOfBinaryTree {
             int x = tuple.vertical;
             int y = tuple.level;
             TreeNode node = tuple.node;
+           
+            // the bigger level comes later as we are doing level order so that will replace the previous one ,
+            //  then we will have the last level nodes
 
-            if (!map.containsKey(x)) {
+            // if (!map.containsKey(x)) {
                 map.put(x, node.val);
-            }
+            // }
 
             if (node.left != null) {
                 q.offer(new Tuple(node.left, x - 1, y + 1));
@@ -44,7 +47,6 @@ public class TopViewOfBinaryTree {
     }
 
     public static void main(String[] args) {
-        // Input : root = [1, 2, 3, 4, 5, 6, 7]
-        // Output : [4, 2, 1, 3, 7]
+
     }
 }
