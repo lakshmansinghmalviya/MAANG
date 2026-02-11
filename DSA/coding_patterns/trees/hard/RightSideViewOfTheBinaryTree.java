@@ -35,10 +35,16 @@ public class RightSideViewOfTheBinaryTree {
             if (node.right != null)
                 q.offer(new Tuple(node.right, x + 1, y + 1));
 
+            // for the left side view of the binary tree , insert the left first then right
+            // that's it
             if (node.left != null)
                 q.offer(new Tuple(node.left, x - 1, y + 1));
         }
         list.addAll(map.values());
         return list;
+    }
+
+    public static void main(String[] args) {
+        // To skip/remove the q size we can travers recursively in order/post order
     }
 }
