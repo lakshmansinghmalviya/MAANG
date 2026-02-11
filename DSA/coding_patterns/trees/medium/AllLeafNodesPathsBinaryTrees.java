@@ -19,6 +19,8 @@ public class AllLeafNodesPathsBinaryTrees {
         str = str + root.val + "->";
         if (isLeaf(root)) {
             list.add(str.substring(0, str.length() - 2));
+            // we remove this o(n) to retrieve the string put a condition above like below
+            // commented code
             return;
         }
 
@@ -38,6 +40,18 @@ public class AllLeafNodesPathsBinaryTrees {
     }
 
     public static void main(String[] args) {
-
+        // Another question we can solve that is find the path till a give node/val so
+        // go left left... and then right once met put in the if condition so store once
+        // true and return from there only
     }
+
 }
+
+// str = str + root.val;
+// if (!isLeaf(root))
+// str = str + "->";
+
+// if (isLeaf(root)) {
+// list.add(str);
+// return;
+// }
