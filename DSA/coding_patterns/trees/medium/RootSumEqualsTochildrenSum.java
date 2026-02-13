@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/root-equals-sum-of-children/
+// https://www.geeksforgeeks.org/problems/children-sum-parent/1 (second solution is for this)
 
 package coding_patterns.trees.medium;
 
@@ -27,8 +28,10 @@ public class RootSumEqualsTochildrenSum {
             sum += root.left.val;
         if (root.right != null)
             sum += root.right.val;
+
         if (root.val != sum)
             return false;
+
         // if all the left + right subtree sum==parent/root then replace the root val
         // with the sum of left + right subtree
         // like root.val= left.val+right.val; to go up with the sum
