@@ -1,8 +1,5 @@
 package coding_patterns.trees.medium;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import coding_patterns.trees.basic.TreeNode;
 
 public class LCAOfTwoNodeInBinaryTree {
