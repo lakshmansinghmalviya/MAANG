@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/
 package coding_patterns.trees.hard;
 
 import java.util.HashMap;
