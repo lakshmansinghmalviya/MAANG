@@ -19,6 +19,7 @@ class Pair {
 }
 
 public class AmountToDestroyBinaryTree {
+    
     TreeNode markParent(TreeNode root, Map<TreeNode, TreeNode> parentMapping, int start) {
         parentMapping.put(root, null); // according to the contraints else put negative value
         Queue<TreeNode> q = new LinkedList<>();
