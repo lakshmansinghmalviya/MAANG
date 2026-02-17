@@ -1,3 +1,5 @@
+// https://www.naukri.com/code360/problems/minimum-element-in-bst_8160462
+
 package coding_patterns.binary_search_tree;
 
 import coding_patterns.trees.basic.TreeNode;
