@@ -17,4 +17,8 @@ public class SearchInBST {
 
         return searchInBST(root.right, val);
     }
+
+    public static void main(String[] args) {
+
+    }
 }
