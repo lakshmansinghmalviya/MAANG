@@ -5,6 +5,7 @@ package coding_patterns.binary_search_tree;
 import coding_patterns.trees.basic.TreeNode;
 
 public class FindMinMaxInBST {
+
     public TreeNode findMin(TreeNode root) {
         if (root == null)
             return null;
