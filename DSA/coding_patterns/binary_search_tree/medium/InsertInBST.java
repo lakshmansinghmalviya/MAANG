@@ -16,7 +16,7 @@ public class InsertInBST {
     }
     
     // public TreeNode insertIntoBST(TreeNode root, int val) {
-    //     if(root==null) return new TreeNode(val);f
+    //     if(root==null) return new TreeNode(val);
     //     TreeNode head = root;
     //     while (root != null) {
     //         if (root.val > val) {
