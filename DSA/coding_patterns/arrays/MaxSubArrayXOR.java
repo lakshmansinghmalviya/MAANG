@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class MaxSubArrayXOR {
+    
    static  int  subArrays(int arr[]) {
         Map<Integer, Integer> map = new HashMap<>();
          map.put(0, 1);
@@ -15,6 +16,7 @@ public class MaxSubArrayXOR {
         }
      return cnt;
     }
+
     public static void main(String[] args) {
         int arr[] = new int[] { 1, 3, 4, 5, 6 };
         System.out.println(subArrays(arr));

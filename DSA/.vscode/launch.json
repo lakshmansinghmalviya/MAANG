@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "FabonacciSeries",
+        "request": "launch",
+        "mainClass": "coding_patterns.dynamic_programming.basic.FabonacciSeries",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "BoundaryTraversalAntiClokWise",
         "request": "launch",
         "mainClass": "coding_patterns.trees.medium.BoundaryTraversalAntiClokWise",
