@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/climbing-stairs/
-
+package coding_patterns.dynamic_programming.basic;
 import java.util.Arrays;
 
 public class ClimbStairs {

@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "FrogJump",
+        "request": "launch",
+        "mainClass": "coding_patterns.dynamic_programming.basic.FrogJump",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "FabonacciSeries",
         "request": "launch",
         "mainClass": "coding_patterns.dynamic_programming.basic.FabonacciSeries",
