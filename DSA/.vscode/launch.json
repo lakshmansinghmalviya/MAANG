@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "FrogJumpWithKDistances",
+        "request": "launch",
+        "mainClass": "coding_patterns.dynamic_programming.basic.FrogJumpWithKDistances",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "FrogJump",
         "request": "launch",
         "mainClass": "coding_patterns.dynamic_programming.basic.FrogJump",
