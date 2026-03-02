@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "GraphRepresentationInList",
+        "request": "launch",
+        "mainClass": "coding_patterns.graphs.basic.GraphRepresentationInList",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
+        "name": "GraphRepresentation",
+        "request": "launch",
+        "mainClass": "coding_patterns.graphs.basic.GraphRepresentation",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "FrogJumpWithKDistances",
         "request": "launch",
         "mainClass": "coding_patterns.dynamic_programming.basic.FrogJumpWithKDistances",

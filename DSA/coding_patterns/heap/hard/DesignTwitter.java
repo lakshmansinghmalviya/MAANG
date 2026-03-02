@@ -31,7 +31,7 @@ class Twitter {
                 if (minHeap.size() > 10) {
                     minHeap.poll();
                 }
-            }
+            }                                                   
         }
 
         if (following.containsKey(userId)) {
