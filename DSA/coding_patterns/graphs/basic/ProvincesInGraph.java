@@ -73,5 +73,6 @@ public class ProvincesInGraph {
         // its just to solve the unconnect components problems
         // means to print all the components which are linked to each other in one and
         // others in the newer list
+        // no need to store in the list but its fine
     }
 }
