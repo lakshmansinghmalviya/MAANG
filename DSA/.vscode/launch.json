@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "PrintNAndUndertand",
+        "request": "launch",
+        "mainClass": "coding_patterns.backtracking.basics.revision.PrintNAndUndertand",
+        "projectName": "DSA_bc8668c5"
+    },
+    {
+        "type": "java",
         "name": "GraphRepresentationInList",
         "request": "launch",
         "mainClass": "coding_patterns.graphs.basic.GraphRepresentationInList",

@@ -31,7 +31,7 @@ class Twitter {
                 if (minHeap.size() > 10) {
                     minHeap.poll();
                 }
-            }                                                   
+            }
         }
 
         if (following.containsKey(userId)) {
@@ -48,7 +48,7 @@ class Twitter {
         }
 
         // System.out.println(minHeap);
-        List<Integer> list = new ArrayList<>();
+        LinkedList<Integer> list = new LinkedList<>();
         while (!minHeap.isEmpty()) {
             list.addFirst(minHeap.poll()[1]);
         }
@@ -68,6 +68,6 @@ class Twitter {
 
 public class DesignTwitter {
     public static void main(String[] args) {
-
+      
     }
 }
