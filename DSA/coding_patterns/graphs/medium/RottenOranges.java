@@ -38,6 +38,7 @@ public class RottenOranges {
         for (int ind = 0; ind < indexes.length; ind++) {
             int row = indexes[ind][0];
             int col = indexes[ind][1];
+            
             if (col >= 0 && col <= n - 1 && row >= 0 && row <= m - 1 && !vis[row][col] && grid[row][col] == 1) {
                 int curIncrement = fillMatrics(row, col, val, increment + 1, q, grid);
                 max = Math.max(max, curIncrement);

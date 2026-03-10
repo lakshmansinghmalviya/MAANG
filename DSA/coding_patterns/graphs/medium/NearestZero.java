@@ -32,9 +32,7 @@ public class NearestZero {
 
         while (!q.isEmpty()) {
             Pair p = q.poll();
-            int i = p.row;
-            int j = p.col;
-            int increment = p.increment;
+            int i = p.row,j = p.col,increment = p.increment;
             int indexes[][] = new int[][] { { i - 1, j }, { i + 1, j }, { i, j - 1 }, { i, j + 1 } };
 
             for (int ind = 0; ind < indexes.length; ind++) {
