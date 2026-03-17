@@ -10,7 +10,6 @@ import java.util.Queue;
 public class GraphBFS {
 
     public static List<Integer> bfsTraversal(int n, List<List<Integer>> adj) {
-        // Write your code here
         List<Integer> res = new ArrayList<>();
         Queue<Integer> queue = new LinkedList<>();
         boolean vis[] = new boolean[n];
