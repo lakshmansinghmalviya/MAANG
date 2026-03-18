@@ -209,7 +209,7 @@ public class DLL {
         // ddlMethods.deleteKthNode(2);
         // ddlMethods.insertBeforeHead(6);
         // ddlMethods.reverseDDL();
-        ddlMethods.removeDuplicates(ddlMethods.head);
+        ddlMethods.deleteTheNode(ddlMethods.head);
         ddlMethods.printDLLForward();
         // ddlMethods.printDLLBackward();
     }
