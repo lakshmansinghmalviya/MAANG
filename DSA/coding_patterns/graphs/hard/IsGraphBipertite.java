@@ -1,5 +1,4 @@
 package coding_patterns.graphs.hard;
-
 import java.util.Arrays;
 
 public class IsGraphBipertite {
